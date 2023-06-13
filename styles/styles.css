@@ -6,4 +6,5 @@
     padding: 10px;
     background: green;
     text-align: center;
+    text-transform: capitalize;
 }
