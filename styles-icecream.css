@@ -4,6 +4,7 @@
 body {
   font-family: Verdana, sans-serif;
   margin: 0;
+  margin-top: 60px;
 }
 .mySlides {
   display: none;
@@ -15,7 +16,12 @@ img {
 
   top: -12px;
 }
-
+.review-images {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
