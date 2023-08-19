@@ -39,10 +39,21 @@ img {
 .quote {
   color: #717171;
   position: relative;
-  top: -40px;
-  left: 60px;
+  top: -30px;
+  left: 50px;
 }
-
+.red-house {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.three-red-dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 16px;
+}
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
@@ -128,7 +139,7 @@ img {
 
 .active,
 .dot:hover {
-  background-color: #717171;
+  background-color: #f81212;
 }
 
 /* Fading animation */
