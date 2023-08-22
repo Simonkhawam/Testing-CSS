@@ -42,9 +42,6 @@
 .mySlides {
   display: none;
 }
-img {
-  vertical-align: middle;
-}
 .img-person {
   width: 85px;
   height: 85px;
@@ -69,6 +66,19 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.icon-quote {
+  position: relative;
+  top: -25px;
+  left: 0px;
+}
+.three-red-dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -20px;
+  left: 85px;
 }
 .comment {
   width: 968px;
