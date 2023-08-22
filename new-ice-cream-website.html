@@ -7,137 +7,411 @@
     <link rel="stylesheet" href="./new-icea-cream-styles.css" />
   </head>
   <body>
+    <!-- automatic navigation -->
+
     <section class="container customer-reviews">
       <div class="h-slider">
         <div class="h-move">
+          <!-- <input type="radio" name="radio-btn" id="radio1" />
+          <input type="radio" name="radio-btn" id="radio2" />
+          <input type="radio" name="radio-btn" id="radio3" />
+          <div class="navigation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+          </div>
+          <div class="navigation-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+          </div> -->
           <div class="h-slide">
-            <img
-              class="person-img"
-              src="./images-icecream/photo-review-1.svg"
-              alt=""
-            />
-            <h1 class="text-review">
-              I love visiting your cafe. You prepare the most delicious ice
-              cream in Los Angeles! In addition, you have beautiful serving,
-              cozy atmosphere and polite staff.
-            </h1>
-            <p class="name-location">Emily, Los Angeles</p>
+            <div class="img-person slide first">
+              <img
+                class="person-img"
+                src="./images-icecream/photo-review-1.svg"
+                alt=""
+              />
+            </div>
+            <div class="review-comment">
+              <use>
+                <svg
+                  class="icon-comment"
+                  width="54"
+                  height="40"
+                  viewBox="0 0 54 40"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M40.0179 2.59234e-06C42.4286 2.80309e-06 44.7054 0.650413 46.8482 1.95122C48.9911 3.25204 50.7321 5.12196 52.0714 7.56098C53.3571 10 54 12.8726 54 16.1789C54 19.4851 53.1964 22.71 51.5893 25.8537C51.0536 26.9919 50.0893 28.4553 48.6964 30.2439C47.25 32.0325 45.9107 33.5772 44.6786 34.878L39.6161 40L36 33.9837C38.5179 32.4119 40.7411 30.4607 42.6696 28.1301C44.5982 25.8537 45.5625 23.7669 45.5625 21.8699C45.5625 20.8943 45.3482 20.1084 44.9196 19.5122C43.0446 20.8672 40.9554 21.5447 38.6518 21.5447C36.9911 21.5447 35.4107 21.0298 33.9107 20C32.3571 19.0244 31.125 17.7236 30.2143 16.0976C29.25 14.5257 28.7679 12.8997 28.7679 11.2195C28.7679 9.32249 29.3304 7.50678 30.4554 5.77236C31.5268 4.03794 32.9464 2.62873 34.7143 1.54472C36.4286 0.51491 38.1964 2.43311e-06 40.0179 2.59234e-06ZM11.1696 7.03482e-08C13.5804 2.81099e-07 15.8571 0.65041 18 1.95122C20.1429 3.25203 21.8839 5.12195 23.2232 7.56098C24.5089 10 25.1518 12.8726 25.1518 16.1789C25.1518 18.5095 24.8571 20.5962 24.2679 22.439C23.6786 24.336 22.6607 26.3144 21.2143 28.374C19.8214 30.3252 18.5089 31.9512 17.2768 33.252C16.0446 34.607 13.9018 36.8564 10.8482 40L7.23214 33.9837C9.75 32.4119 11.9732 30.4607 13.9018 28.1301C15.8304 25.8537 16.7946 23.7669 16.7946 21.8699C16.7946 20.8943 16.5804 20.1084 16.1518 19.5122C14.2768 20.8672 12.1875 21.5447 9.88393 21.5447C8.22321 21.5447 6.64285 21.0298 5.14285 20C3.58928 19.0244 2.35714 17.7236 1.44643 16.0976C0.482142 14.5257 -1.44552e-06 12.8997 -1.29863e-06 11.2195C-1.13278e-06 9.32249 0.535712 7.50677 1.60714 5.77236C2.67857 4.03794 4.09821 2.62873 5.86607 1.54472C7.58036 0.514908 9.34821 -8.88862e-08 11.1696 7.03482e-08Z"
+                    fill="#E1E1E1"
+                  />
+                </svg>
+              </use>
+              <h1 class="text-review">
+                I love visiting your cafe. You prepare the most delicious ice
+                cream in Los Angeles! In addition, you have beautiful serving,
+                cozy atmosphere and polite staff.
+              </h1>
+            </div>
+            <div class="add-location">
+              <use>
+                <svg
+                  class="three-red-dots"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="4"
+                  viewBox="0 0 32 4"
+                  fill="none"
+                >
+                  <circle cx="16" cy="2" r="2" fill="#C7133E" />
+                  <circle cx="2" cy="2" r="2" fill="#C7133E" />
+                  <circle cx="30" cy="2" r="2" fill="#C7133E" />
+                </svg>
+              </use>
+              <p class="name-location">Emily, Los Angeles</p>
+            </div>
           </div>
           <div class="h-slide">
-            <img
-              class="person-img"
-              src="./images-icecream/photo-review-2.svg"
-              alt=""
-            />
-            <h1 class="text-review">
-              I love visiting your cafe. You prepare the most delicious ice
-              cream in Los Angeles! In addition, you have beautiful serving,
-              cozy atmosphere and polite staff.
-            </h1>
-            <p class="name-location">Emily, Los Angeles</p>
+            <div class="img-person slide">
+              <img
+                class="person-img"
+                src="./images-icecream/photo-review-2.svg"
+                alt=""
+              />
+            </div>
+            <div class="review-comment">
+              <use>
+                <svg
+                  class="icon-comment"
+                  width="54"
+                  height="40"
+                  viewBox="0 0 54 40"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M40.0179 2.59234e-06C42.4286 2.80309e-06 44.7054 0.650413 46.8482 1.95122C48.9911 3.25204 50.7321 5.12196 52.0714 7.56098C53.3571 10 54 12.8726 54 16.1789C54 19.4851 53.1964 22.71 51.5893 25.8537C51.0536 26.9919 50.0893 28.4553 48.6964 30.2439C47.25 32.0325 45.9107 33.5772 44.6786 34.878L39.6161 40L36 33.9837C38.5179 32.4119 40.7411 30.4607 42.6696 28.1301C44.5982 25.8537 45.5625 23.7669 45.5625 21.8699C45.5625 20.8943 45.3482 20.1084 44.9196 19.5122C43.0446 20.8672 40.9554 21.5447 38.6518 21.5447C36.9911 21.5447 35.4107 21.0298 33.9107 20C32.3571 19.0244 31.125 17.7236 30.2143 16.0976C29.25 14.5257 28.7679 12.8997 28.7679 11.2195C28.7679 9.32249 29.3304 7.50678 30.4554 5.77236C31.5268 4.03794 32.9464 2.62873 34.7143 1.54472C36.4286 0.51491 38.1964 2.43311e-06 40.0179 2.59234e-06ZM11.1696 7.03482e-08C13.5804 2.81099e-07 15.8571 0.65041 18 1.95122C20.1429 3.25203 21.8839 5.12195 23.2232 7.56098C24.5089 10 25.1518 12.8726 25.1518 16.1789C25.1518 18.5095 24.8571 20.5962 24.2679 22.439C23.6786 24.336 22.6607 26.3144 21.2143 28.374C19.8214 30.3252 18.5089 31.9512 17.2768 33.252C16.0446 34.607 13.9018 36.8564 10.8482 40L7.23214 33.9837C9.75 32.4119 11.9732 30.4607 13.9018 28.1301C15.8304 25.8537 16.7946 23.7669 16.7946 21.8699C16.7946 20.8943 16.5804 20.1084 16.1518 19.5122C14.2768 20.8672 12.1875 21.5447 9.88393 21.5447C8.22321 21.5447 6.64285 21.0298 5.14285 20C3.58928 19.0244 2.35714 17.7236 1.44643 16.0976C0.482142 14.5257 -1.44552e-06 12.8997 -1.29863e-06 11.2195C-1.13278e-06 9.32249 0.535712 7.50677 1.60714 5.77236C2.67857 4.03794 4.09821 2.62873 5.86607 1.54472C7.58036 0.514908 9.34821 -8.88862e-08 11.1696 7.03482e-08Z"
+                    fill="#E1E1E1"
+                  />
+                </svg>
+              </use>
+              <h1 class="text-review">
+                I love visiting your cafe. You prepare the most delicious ice
+                cream in Los Angeles! In addition, you have beautiful serving,
+                cozy atmosphere and polite staff.
+              </h1>
+            </div>
+            <div class="add-location">
+              <use>
+                <svg
+                  class="three-red-dots"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="4"
+                  viewBox="0 0 32 4"
+                  fill="none"
+                >
+                  <circle cx="16" cy="2" r="2" fill="#C7133E" />
+                  <circle cx="2" cy="2" r="2" fill="#C7133E" />
+                  <circle cx="30" cy="2" r="2" fill="#C7133E" />
+                </svg>
+              </use>
+              <p class="name-location">Emily, Los Angeles</p>
+            </div>
           </div>
+
           <div class="h-slide">
-            <img
-              class="person-img"
-              src="./images-icecream/photo-review-3.svg"
-              alt=""
-            />
-            <h1 class="text-review">
-              I love visiting your cafe. You prepare the most delicious ice
-              cream in Los Angeles! In addition, you have beautiful serving,
-              cozy atmosphere and polite staff.
-            </h1>
-            <p class="name-location">Emily, Los Angeles</p>
+            <div class="img-person slide">
+              <img
+                class="person-img slide first"
+                src="./images-icecream/photo-review-3.svg"
+                alt=""
+              />
+            </div>
+            <div class="review-comment">
+              <use>
+                <svg
+                  class="icon-comment"
+                  width="54"
+                  height="40"
+                  viewBox="0 0 54 40"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M40.0179 2.59234e-06C42.4286 2.80309e-06 44.7054 0.650413 46.8482 1.95122C48.9911 3.25204 50.7321 5.12196 52.0714 7.56098C53.3571 10 54 12.8726 54 16.1789C54 19.4851 53.1964 22.71 51.5893 25.8537C51.0536 26.9919 50.0893 28.4553 48.6964 30.2439C47.25 32.0325 45.9107 33.5772 44.6786 34.878L39.6161 40L36 33.9837C38.5179 32.4119 40.7411 30.4607 42.6696 28.1301C44.5982 25.8537 45.5625 23.7669 45.5625 21.8699C45.5625 20.8943 45.3482 20.1084 44.9196 19.5122C43.0446 20.8672 40.9554 21.5447 38.6518 21.5447C36.9911 21.5447 35.4107 21.0298 33.9107 20C32.3571 19.0244 31.125 17.7236 30.2143 16.0976C29.25 14.5257 28.7679 12.8997 28.7679 11.2195C28.7679 9.32249 29.3304 7.50678 30.4554 5.77236C31.5268 4.03794 32.9464 2.62873 34.7143 1.54472C36.4286 0.51491 38.1964 2.43311e-06 40.0179 2.59234e-06ZM11.1696 7.03482e-08C13.5804 2.81099e-07 15.8571 0.65041 18 1.95122C20.1429 3.25203 21.8839 5.12195 23.2232 7.56098C24.5089 10 25.1518 12.8726 25.1518 16.1789C25.1518 18.5095 24.8571 20.5962 24.2679 22.439C23.6786 24.336 22.6607 26.3144 21.2143 28.374C19.8214 30.3252 18.5089 31.9512 17.2768 33.252C16.0446 34.607 13.9018 36.8564 10.8482 40L7.23214 33.9837C9.75 32.4119 11.9732 30.4607 13.9018 28.1301C15.8304 25.8537 16.7946 23.7669 16.7946 21.8699C16.7946 20.8943 16.5804 20.1084 16.1518 19.5122C14.2768 20.8672 12.1875 21.5447 9.88393 21.5447C8.22321 21.5447 6.64285 21.0298 5.14285 20C3.58928 19.0244 2.35714 17.7236 1.44643 16.0976C0.482142 14.5257 -1.44552e-06 12.8997 -1.29863e-06 11.2195C-1.13278e-06 9.32249 0.535712 7.50677 1.60714 5.77236C2.67857 4.03794 4.09821 2.62873 5.86607 1.54472C7.58036 0.514908 9.34821 -8.88862e-08 11.1696 7.03482e-08Z"
+                    fill="#E1E1E1"
+                  />
+                </svg>
+              </use>
+              <h1 class="text-review">
+                I love visiting your cafe. You prepare the most delicious ice
+                cream in Los Angeles! In addition, you have beautiful serving,
+                cozy atmosphere and polite staff.
+              </h1>
+            </div>
+            <div class="add-location">
+              <use>
+                <svg
+                  class="three-red-dots"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="4"
+                  viewBox="0 0 32 4"
+                  fill="none"
+                >
+                  <circle cx="16" cy="2" r="2" fill="#C7133E" />
+                  <circle cx="2" cy="2" r="2" fill="#C7133E" />
+                  <circle cx="30" cy="2" r="2" fill="#C7133E" />
+                </svg>
+              </use>
+              <p class="name-location">Emily, Los Angeles</p>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- <div class="container">
-      <div class="wrapper">
-        <img src="./images-icecream/img_mountains_wide.jpg" alt="" />
-        <img src="./images-icecream/img_nature_wide.jpg" alt="" />
-        <img src="./images-icecream/img_snow_wide.jpg" alt="" />
-        <img src="./images-icecream/img_nature_wide.jpg" alt="" />
+    <!-- java code?! -->
+    <!-- <script>
+      let slideIndex = 1;
+      showSlides(slideIndex);
+
+      function plusSlides(n) {
+        showSlides((slideIndex += n));
+      }
+
+      function currentSlide(n) {
+        showSlides((slideIndex = n));
+      }
+
+      function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {
+          slideIndex = 1;
+        }
+        if (n < 1) {
+          slideIndex = slides.length;
+        }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+      }
+    </script> -->
+
+    <!-- <section class="customer-reviews" id="customer-reviews">
+      <h2 class="is-hidden">Customer reviews</h2>
+      <div class="container">
+        <div
+          class="swiper-container swiper-container-initialized swiper-container-horizontal swiper-container-pointer-events"
+        >
+          <ul
+            class="list swiper-wrapper"
+            style="
+              transform: translate3d(-2190px, 0px, 0px);
+              transition-duration: 0ms;
+            "
+          > 
+            <!-- primul slide -->
+    <!-- <li
+              class="customer-reviews__item swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active"
+              data-swiper-slide-index="2"
+              style="width: 700px; margin-right: 30px"
+            >
+              <picture>
+                <source
+                  srcset="
+                    /ice-cream/customer-reviews-3-desktop.43c53e20.webp    1x,
+                    /ice-cream/customer-reviews-3-desktop@2x.73e6b667.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    /ice-cream/customer-reviews-3-desktop.18fde7df.png    1x,
+                    /ice-cream/customer-reviews-3-desktop@2x.e860fd5e.png 2x
+                  "
+                />
+                <img
+                  class="customer-reviews__image"
+                  src="/ice-cream/customer-reviews-3-desktop.18fde7df.png"
+                  alt="Photo of customer"
+                />
+              </picture>
+              <div class="customer-reviews__wrapper">
+                <p class="customer-reviews__feedback">
+                  Nullam viverra consectetuer. Quisque cursus et, porttitor
+                  risus. Aliquam sem. In hendrerit nulla quam nunc, accumsan
+                  congue. Lorem ipsum primis in nibh vel risus.
+                </p>
+              </div>
+              <p class="customer-reviews__location">Emily, Los Angeles</p>
+            </li>  -->
+    <!-- al doilea slide -->
+    <!-- <li
+      class="customer-reviews__item swiper-slide swiper-slide-duplicate-next"
+      data-swiper-slide-index="0"
+      style="width: 700px; margin-right: 30px"
+    >
+      <picture>
+        <source
+          srcset="
+            /ice-cream/customer-reviews-1-desktop.8d2d8d53.webp    1x,
+            /ice-cream/customer-reviews-1-desktop@2x.3c342531.webp 2x
+          "
+          type="image/webp"
+        />
+        <source
+          srcset="
+            /ice-cream/customer-reviews-1-desktop.19fc97ca.png    1x,
+            /ice-cream/customer-reviews-1-desktop@2x.1b8e5034.png 2x
+          "
+        />
+        <img
+          class="customer-reviews__image"
+          src="/ice-cream/customer-reviews-1-desktop.19fc97ca.png"
+          alt="Photo of customer"
+        />
+      </picture>
+      <div class="customer-reviews__wrapper">
+        <p class="customer-reviews__feedback">
+          Nullam viverra consectetuer. Quisque cursus et, porttitor risus.
+          Aliquam sem. In hendrerit nulla quam nunc, accumsan congue. Lorem
+          ipsum primis in nibh vel risus.
+        </p>
       </div>
-    </div> -->
+      <p class="customer-reviews__location">Emily, Los Angeles</p>
+    </li> -->
+    <!-- al trailea -->
+    <!-- <li
+              class="customer-reviews__item swiper-slide swiper-slide-prev"
+              data-swiper-slide-index="1"
+              style="width: 700px; margin-right: 30px"
+            >
+              <picture>
+                <source
+                  srcset="
+                    /ice-cream/customer-reviews-2-desktop.f5b50fd9.webp    1x,
+                    /ice-cream/customer-reviews-2-desktop@2x.a315f286.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    /ice-cream/customer-reviews-2-desktop.0e71748b.png    1x,
+                    /ice-cream/customer-reviews-2-desktop@2x.14f67a09.png 2x
+                  "
+                />
+                <img
+                  class="customer-reviews__image"
+                  src="/ice-cream/customer-reviews-2-desktop.0e71748b.png"
+                  alt="Photo of customer"
+                />
+              </picture>
+              <div class="customer-reviews__wrapper">
+                <p class="customer-reviews__feedback">
+                  Nullam viverra consectetuer. Quisque cursus et, porttitor
+                  risus. Aliquam sem. In hendrerit nulla quam nunc, accumsan
+                  congue. Lorem ipsum primis in nibh vel risus.
+                </p>
+              </div>
+              <p class="customer-reviews__location">Emily, Los Angeles</p>
+            </li> -->
+    <!-- al patrulea -->
+    <!-- <li
+              class="customer-reviews__item swiper-slide swiper-slide-active"
+              data-swiper-slide-index="2"
+              style="width: 700px; margin-right: 30px"
+            >
+              <picture>
+                <source
+                  srcset="
+                    /ice-cream/customer-reviews-3-desktop.43c53e20.webp    1x,
+                    /ice-cream/customer-reviews-3-desktop@2x.73e6b667.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    /ice-cream/customer-reviews-3-desktop.18fde7df.png    1x,
+                    /ice-cream/customer-reviews-3-desktop@2x.e860fd5e.png 2x
+                  "
+                />
+                <img
+                  class="customer-reviews__image"
+                  src="/ice-cream/customer-reviews-3-desktop.18fde7df.png"
+                  alt="Photo of customer"
+                />
+              </picture>
+              <div class="customer-reviews__wrapper">
+                <p class="customer-reviews__feedback">
+                  Nullam viverra consectetuer. Quisque cursus et, porttitor
+                  risus. Aliquam sem. In hendrerit nulla quam nunc, accumsan
+                  congue. Lorem ipsum primis in nibh vel risus.
+                </p>
+              </div>
+              <p class="customer-reviews__location">Emily, Los Angeles</p>
+            </li> -->
+    <!-- al cincelea -->
+    <!-- <li
+              class="customer-reviews__item swiper-slide swiper-slide-duplicate swiper-slide-next"
+              data-swiper-slide-index="0"
+              style="width: 700px; margin-right: 30px"
+            >
+              <picture>
+                <source
+                  srcset="
+                    /ice-cream/customer-reviews-1-desktop.8d2d8d53.webp    1x,
+                    /ice-cream/customer-reviews-1-desktop@2x.3c342531.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    /ice-cream/customer-reviews-1-desktop.19fc97ca.png    1x,
+                    /ice-cream/customer-reviews-1-desktop@2x.1b8e5034.png 2x
+                  "
+                />
+                <img
+                  class="customer-reviews__image"
+                  src="/ice-cream/customer-reviews-1-desktop.19fc97ca.png"
+                  alt="Photo of customer"
+                />
+              </picture>
+              <div class="customer-reviews__wrapper">
+                <p class="customer-reviews__feedback">
+                  Nullam viverra consectetuer. Quisque cursus et, porttitor
+                  risus. Aliquam sem. In hendrerit nulla quam nunc, accumsan
+                  congue. Lorem ipsum primis in nibh vel risus.
+                </p>
+              </div>
+              <p class="customer-reviews__location">Emily, Los Angeles</p>
+            </li>
+          </ul> -->
+    <!-- final de code -->
+    <!-- <div
+            class="swiper-pagination swiper-pagination-clickable customer-reviews__paginationbullets"
+          >
+            <span class="customer-reviews__dots"></span
+            ><span class="customer-reviews__dots"></span
+            ><span
+              class="customer-reviews__dots customer-reviews__dots--active"
+            ></span>
+          </div> -->
+    <!-- important ce este mai sus cu casuta rosie sau puncetele grey? -->
+    <!-- <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </div>
+    </section> -->
   </body>
 </html>
-
-<!-- comments slider star -->
-<!-- <div class="slider">
-      <div class="slides"> -->
-<!-- radio buttons start -->
-<!-- <input class="inp" type="radio" name="radio-btn" id="radio1" />
-        <input class="inp" type="radio" name="radio-btn" id="radio2" />
-        <input class="inp" type="radio" name="radio-btn" id="radio3" /> -->
-<!-- radio buttons end -->
-<!-- slide comments star -->
-<!-- <div class="slide first">
-          <img
-            class="icon-img"
-            src="./images-icecream/photo-review-1.svg"
-            alt="person#1"
-          />
-          <h4 class="text">
-            I love visiting your cafe. You prepare the most delicious ice cream
-            in Los Angeles! In addition, you have beautiful serving, cozy
-            atmosphere and polite staff.
-          </h4>
-          <p class="customer-reviews__location">Emily, Los Angeles</p>
-        </div>
-        <div class="slide">
-          <img
-            class="icon-img"
-            src="./images-icecream/photo-review-2.svg"
-            alt="person#2"
-          />
-          <h4 class="text">
-            I love visiting your cafe. You prepare the most delicious ice cream
-            in Los Angeles! In addition, you have beautiful serving, cozy
-            atmosphere and polite staff.
-          </h4>
-          <p class="customer-reviews__location">Emily, Los Angeles</p>
-        </div>
-        <div class="slide">
-          <img
-            class="icon-img"
-            src="./images-icecream/photo-review-3.svg"
-            alt="person#3"
-          />
-          <h4 class="text">
-            I love visiting your cafe. You prepare the most delicious ice cream
-            in Los Angeles! In addition, you have beautiful serving, cozy
-            atmosphere and polite staff.
-          </h4>
-          <p class="customer-reviews__location">Emily, Los Angeles</p>
-        </div> -->
-<!-- slide comments end -->
-<!-- automatic navigation start-->
-<!-- <div class="navigation-auto">
-          <div class="autobtn1"></div>
-          <div class="autobtn2"></div>
-          <div class="autobtn3"></div>
-        </div> -->
-<!-- automatic navigation end-->
-<!-- </div> -->
-<!-- manual navigation start -->
-<!-- <div class="navigation-manual">
-        <label for="radio1" class="manual-btn"></label>
-        <label for="radio2" class="manual-btn"></label>
-        <label for="radio3" class="manual-btn"></label>
-      </div> -->
-<!-- manual navigation end -->
-<!-- </div> -->
-
-<!-- comments slider end -->
-<!-- <script type="text/javascript">
-      var counter = 1;
-      setInterval(function () {
-        document.getElementByid("radio" + counter).checked = true;
-        counter++;
-        if (counter > 4) {
-          counter = 1;
-        }
-      }, 5000);
-    </script> -->

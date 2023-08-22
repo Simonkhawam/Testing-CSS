@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>New-Document-icecream-version</title>
+    <link rel="stylesheet" href="./test-22-08/styles-22.css" />
+  </head>
+  <body>
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <img
+          class="img-person"
+          src="./images-icecream/photo-review-1.svg"
+          style="width: 100%"
+        />
+        <div class="text">Caption Text</div>
+        <div class="comment">
+          <h2 class="comment-review">
+            I love visiting your cafe. You prepare the most delicious ice cream
+            in Los Angeles! In addition, you have beautiful serving, cozy
+            atmosphere and polite staff.
+            <div class="horizontal-line2">
+              <use>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 821 2"
+                  fill="none"
+                >
+                  <path d="M0 1L821 1.00007" stroke="#E1E1E1" />
+                </svg>
+              </use>
+            </div>
+            <div class="horizontal-line1">
+              <use>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 821 2"
+                  fill="none"
+                >
+                  <path d="M0 1L821 1.00007" stroke="#E1E1E1" />
+                </svg>
+              </use>
+            </div>
+          </h2>
+        </div>
+        <div class="name">
+          <p class="name-location">Emily, Los Angeles</p>
+        </div>
+      </div>
+
+      <div class="mySlides fade">
+        <img
+          class="img-person"
+          src="./images-icecream/photo-review-2.svg"
+          style="width: 100%"
+        />
+        <div class="text">Caption Text</div>
+        <div class="comment">
+          <h2 class="comment-review">
+            I love visiting your cafe. You prepare the most delicious ice cream
+            in Los Angeles! In addition, you have beautiful serving, cozy
+            atmosphere and polite staff.
+            <div class="horizontal-line2">
+              <use>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 821 2"
+                  fill="none"
+                >
+                  <path d="M0 1L821 1.00007" stroke="#E1E1E1" />
+                </svg>
+              </use>
+            </div>
+            <div class="horizontal-line1">
+              <use>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 821 2"
+                  fill="none"
+                >
+                  <path d="M0 1L821 1.00007" stroke="#E1E1E1" />
+                </svg>
+              </use>
+            </div>
+          </h2>
+        </div>
+        <div class="name">
+          <p class="name-location">Emily, Los Angeles</p>
+        </div>
+      </div>
+
+      <div class="mySlides fade">
+        <img
+          class="img-person"
+          src="./images-icecream/photo-review-3.svg"
+          style="width: 100%"
+        />
+        <div class="text">Caption Three</div>
+        <div class="comment">
+          <h2 class="comment-review">
+            I love visiting your cafe. You prepare the most delicious ice cream
+            in Los Angeles! In addition, you have beautiful serving, cozy
+            atmosphere and polite staff.
+            <div class="horizontal-line2">
+              <use>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 821 2"
+                  fill="none"
+                >
+                  <path d="M0 1L821 1.00007" stroke="#E1E1E1" />
+                </svg>
+              </use>
+            </div>
+            <div class="horizontal-line1">
+              <use>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 821 2"
+                  fill="none"
+                >
+                  <path d="M0 1L821 1.00007" stroke="#E1E1E1" />
+                </svg>
+              </use>
+            </div>
+          </h2>
+        </div>
+        <div class="name">
+          <p class="name-location">Emily, Los Angeles</p>
+        </div>
+      </div>
+    </div>
+    <br />
+
+    <div style="text-align: center">
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+
+    <script>
+      let slideIndex = 0;
+      showSlides();
+
+      function showSlides() {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {
+          slideIndex = 1;
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+        setTimeout(showSlides, 2000); // Change image every 2 seconds
+      }
+    </script>
+    <!-- <section class="container-slider">
+
+
+      <div class="slider-wrapper">
+        <div class="slider">
+          <img
+            src="./images-icecream/photo-review-1.svg"
+            id="slider-person#1"
+            alt=""
+          />
+          <img
+            src="./images-icecream/photo-review-2.svg"
+            id="slider-person#2"
+            alt=""
+          />
+          <img
+            src="./images-icecream/photo-review-3.svg"
+            id="slider-person#3"
+            alt=""
+          />
+        </div>
+        <div class="slider-nav">
+          <a href="#slider-person#1"></a>
+          <a href="#slider-person#2"></a>
+          <a href="#slider-person#3"></a>
+        </div>
+      </div>
+    </section> -->
+  </body>
+</html>
