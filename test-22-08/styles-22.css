@@ -96,7 +96,7 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 186%; /* 29.76px */
+  line-height: 186%;
   letter-spacing: 0.64px;
 }
 .name-location {
@@ -109,16 +109,15 @@
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  line-height: 186%; /* 37.2px */
+  line-height: 186%;
 }
-/* Slideshow container */
+
 .slideshow-container {
   max-width: 1000px;
   position: relative;
   margin: auto;
 }
 
-/* Caption text */
 .text {
   color: #f2f2f2;
   font-size: 15px;
@@ -129,7 +128,6 @@
   text-align: center;
 }
 
-/* The dots/bullets/indicators */
 .dot {
   height: 15px;
   width: 15px;
@@ -144,7 +142,6 @@
   background-color: #717171;
 }
 
-/* Fading animation */
 .fade {
   animation-name: fade;
   animation-duration: 1.5s;
@@ -159,7 +156,6 @@
   }
 }
 
-/* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .text {
     font-size: 11px;
