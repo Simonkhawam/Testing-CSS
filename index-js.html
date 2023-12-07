@@ -7,14 +7,83 @@
     <title>Document</title>
   </head>
   <body>
-    <div>
+    <div class="header">
       <!-- <svg xmlns="http://www.w3.org/2000/svg" width="7" height="10" viewBox="0 0 7 10" fill="none">
             <path d="M1.03772 1L5.71697 5L1.03772 9" stroke="#D41443" stroke-width="2" stroke-linecap="round"
               stroke-linejoin="round" />   </svg>-->
 
-      <div>
-        <a href="index.html" class="logo">
+      <div class="logo-title">
+        <a href="index-js.html" class="logo">
           <svg
+            class="logo-cinema"
+            width="59"
+            height="59"
+            viewBox="0 0 24 24"
+            id="Layer_1"
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="#000000"
+          >
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g
+              id="SVGRepo_tracerCarrier"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></g>
+            <g id="SVGRepo_iconCarrier">
+              <defs>
+                <style>
+                  .cls-1 {
+                    fill: none;
+                    stroke: #020202;
+                    stroke-miterlimit: 10;
+                    stroke-width: 1.91px;
+                  }
+                </style>
+              </defs>
+              <circle class="cls-1" cx="12.02" cy="12" r="10.52"></circle>
+              <circle class="cls-1" cx="12.02" cy="6.26" r="1.91"></circle>
+              <circle class="cls-1" cx="12.02" cy="17.74" r="1.91"></circle>
+              <circle class="cls-1" cx="12.02" cy="17.74" r="1.91"></circle>
+              <circle class="cls-1" cx="6.28" cy="12" r="1.91"></circle>
+              <circle class="cls-1" cx="17.76" cy="12" r="1.91"></circle>
+              <circle class="cls-1" cx="17.76" cy="12" r="1.91"></circle>
+              <line
+                class="cls-1"
+                x1="23.5"
+                y1="22.52"
+                x2="12.02"
+                y2="22.52"
+              ></line>
+              <line class="cls-1" x1="11.07" y1="12" x2="12.98" y2="12"></line>
+            </g>
+          </svg>
+        </a>
+        <h1 class="hero-logo">Filmoteka</h1>
+      </div>
+      <div class="top-header">
+        <img
+          class="main-logo-img"
+          src="./image/abstract-background-with-red-lines 1.svg"
+          alt="logo"
+          width="216"
+        />
+      </div>
+    </div>
+    <form class="header-search-form">
+      <div class="search-form">
+        <input
+          type="text"
+          name="search"
+          class="search form-input"
+          placeholder="Movie search"
+        />
+        <button type="submit" class="search-btn">
+          <span class="search-icon"></span>
+        </button>
+      </div>
+    </form>
+    <!-- <svg
             xmlns="http://www.w3.org/2000/svg"
             width="59"
             height="59"
@@ -77,17 +146,18 @@
               stroke-linecap="round"
               stroke-linejoin="round"
             />
-          </svg>
-        </a>
-      </div>
+          </svg> -->
 
-      <a href="index.html" class="logo">
-        <img
-          src="./image/abstract-background-with-red-lines 1.svg"
-          alt="logo"
-          width="200"
-      /></a>
-    </div>
+    <!-- <svg
+        class="animate__animated animate__infinite animate__pulse animate__slower up-button__icon"
+        width="30"
+        height="30"
+      >
+        <use href="/src/images/circle-up.svg#icon-circle-up"></use>
+      </svg> -->
+
+    <!-- --------------------------------------------------- -->
+
     <script type="module" src="./index-js.js"></script>
   </body>
 </html>
