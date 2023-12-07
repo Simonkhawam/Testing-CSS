@@ -1,18 +1,18 @@
 .container {
   /* max-width: 1300px; */
-  max-width: 1300px;
+  max-width: 100vw;
   margin: 0 auto;
   padding: 0 32px;
 }
 
 .header {
   height: 316px;
-  width: 1216px;
+  width: 100%;
   position: relative;
   border-radius: 20px;
   top: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.56);
+  background-color: rgba(37, 3, 3, 0.56);
   /* background-image: */
   background-size: cover;
   background-repeat: no-repeat;
@@ -26,7 +26,7 @@
   margin-left: 0px;
   margin-top: 0px;
   margin-top: -160px;
-  width: 1216px;
+  width: 100%;
   height: 316px;
 }
 .logo-cinema {
