@@ -12,81 +12,98 @@
       href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Titan+One&display=swap"
       rel="stylesheet"
     />
-    <title>Document</title>
   </head>
+  <title>Document</title>
   <body>
-    <div class="container">
-      <div class="header">
-        <div class="logo-title">
-          <a href="index-js.html" class="logo">
-            <svg
-              class="logo-cinema"
-              xmlns="http://www.w3.org/2000/svg"
-              width="59"
-              height="59"
-              viewBox="0 0 59 59"
-              fill="none"
-            >
-              <path
-                d="M48.724 4.9165H10.2757C7.31588 4.9165 4.9165 7.31588 4.9165 10.2757V48.724C4.9165 51.6838 7.31588 54.0831 10.2757 54.0831H48.724C51.6838 54.0831 54.0831 51.6838 54.0831 48.724V10.2757C54.0831 7.31588 51.6838 4.9165 48.724 4.9165Z"
-                stroke="white"
-                stroke-width="4"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M17.2085 4.9165V54.0831"
-                stroke="white"
-                stroke-width="4"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M41.7915 4.9165V54.0831"
-                stroke="white"
-                stroke-width="4"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M4.9165 29.5H54.0831"
-                stroke="white"
-                stroke-width="4"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M4.9165 17.2085H17.2082"
-                stroke="white"
-                stroke-width="4"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M4.9165 41.7915H17.2082"
-                stroke="white"
-                stroke-width="4"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M41.7915 41.7915H54.0832"
-                stroke="white"
-                stroke-width="4"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M41.7915 17.2085H54.0832"
-                stroke="white"
-                stroke-width="4"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-            </svg>
-          </a>
-          <h1 class="written-logo">Filmoteka</h1>
+    <header class="header library__header">
+      <div class="container container__header">
+        <div class="header_wraper">
+          <div class="logo_container">
+            <a href="index-js.html" class="logo">
+              <svg
+                class="logo-cinema"
+                xmlns="http://www.w3.org/2000/svg"
+                width="59"
+                height="59"
+                viewBox="0 0 59 59"
+                fill="none"
+              >
+                <path
+                  d="M48.724 4.9165H10.2757C7.31588 4.9165 4.9165 7.31588 4.9165 10.2757V48.724C4.9165 51.6838 7.31588 54.0831 10.2757 54.0831H48.724C51.6838 54.0831 54.0831 51.6838 54.0831 48.724V10.2757C54.0831 7.31588 51.6838 4.9165 48.724 4.9165Z"
+                  stroke="white"
+                  stroke-width="4"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M17.2085 4.9165V54.0831"
+                  stroke="white"
+                  stroke-width="4"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M41.7915 4.9165V54.0831"
+                  stroke="white"
+                  stroke-width="4"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M4.9165 29.5H54.0831"
+                  stroke="white"
+                  stroke-width="4"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M4.9165 17.2085H17.2082"
+                  stroke="white"
+                  stroke-width="4"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M4.9165 41.7915H17.2082"
+                  stroke="white"
+                  stroke-width="4"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M41.7915 41.7915H54.0832"
+                  stroke="white"
+                  stroke-width="4"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M41.7915 17.2085H54.0832"
+                  stroke="white"
+                  stroke-width="4"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+
+              <span class="written-logo">Filmoteka</span>
+            </a>
+          </div>
         </div>
+        <nav class="header-navigation">
+          <ul class="navigation-list">
+            <li class="navigation-list__item">
+              <a class="navigation-list__link" href="./index.html">Home</a>
+            </li>
+            <li class="navigation-list__item">
+              <a
+                class="navigation-list__link site-nav__link--current"
+                href="./library.html"
+                >My Library</a
+              >
+            </li>
+          </ul>
+        </nav>
         <div class="top-header">
           <img
             class="main-logo-img"
@@ -94,23 +111,41 @@
             alt="logo"
           />
         </div>
-      </div>
-      <form class="header-search-form">
-        <div class="search-form">
-          <input
-            type="text"
-            name="search"
-            class="search form-input"
-            placeholder="Movie search"
-          />
-          <button type="submit" class="search-btn">
-            <span class="search-icon"></span>
+        <div class="buttons-block">
+          <button
+            type="button"
+            data-value="watched"
+            class="button button-watched active music__btn"
+            id="btn"
+          >
+            Watched
+          </button>
+          <button
+            type="button"
+            data-value="queue"
+            class="button button-queue music__btn"
+            id="btn"
+          >
+            Queue
           </button>
         </div>
-      </form>
 
-      <!-- --------------------------------------------------- -->
-    </div>
+        <form class="header-search-form">
+          <div class="search-form">
+            <input
+              type="text"
+              name="search"
+              class="search form-input"
+              placeholder="Movie search"
+            />
+            <button type="submit" class="search-btn">
+              <span class="search-icon"></span>
+            </button>
+          </div>
+        </form>
+      </div>
+    </header>
+
     <script type="module" src="./index-js.js"></script>
   </body>
 </html>
