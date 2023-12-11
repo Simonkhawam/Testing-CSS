@@ -1,61 +1,126 @@
-<header>
-  <section class="lib-header-section">
-    <div class="lib-dark-gradient-mobile"></div>
-    <img
-      class="lib-hero-image"
-      src="./images/filmoteka-main-image.jpg"
-      alt="Movie popcorn, 3D glasses and camera"
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Library</title>
+    <!-- Favicon -->
+    <link rel="icon" href="./images/favicon_io/favicon.ico" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
     />
-    <div class="lib-logo-container">
-      <div class="lib-logo-alignment">
+    <script
+      src="https://kit.fontawesome.com/a7e9f794eb.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <header>
+      <section class="lib-header-section">
+        <div class="lib-dark-gradient-mobile"></div>
         <img
-          class="lib-logo-icon"
-          src="./images/film-icon.svg"
-          alt="Film icon"
+          class="lib-hero-image"
+          src="./images/filmoteka-main-image.jpg"
+          alt="Movie popcorn, 3D glasses and camera"
         />
-        <span class="lib-logo-text">Filmoteka</span>
-      </div>
-    </div>
-    <div class="lib-btn-toggle">
-      <div class="lib-btn1_container">
-        <i class="lib-fas fa-circle"></i>
-      </div>
-    </div>
-    <div class="lib-btn-container-1" onclick="redirectToIndex()">
-      <button class="lib-btn-52">
-        <div class="lib-original">HOME</div>
-        <div class="lib-letters">
-          <!-- Place each letter in its own element -->
-          <span>H</span>
-          <span>O</span>
-          <span>M</span>
-          <span>E</span>
+        <div class="lib-logo-container">
+          <div class="lib-logo-alignment">
+            <img
+              class="lib-logo-icon"
+              src="./images/film-icon.svg"
+              alt="Film icon"
+            />
+            <span class="lib-logo-text">Filmoteka</span>
+          </div>
         </div>
-      </button>
-    </div>
-    <div class="lib-btn-container-2">
-      <button class="lib-btn-53">
-        <div class="lib-original">MY LIBRARY</div>
-        <div class="lib-letters">
-          <!-- Place each letter in its own element -->
-          <span>M</span>
-          <span>Y</span>
-          <span>&nbsp;</span>
-          <span>L</span>
-          <span>I</span>
-          <span>B</span>
-          <span>R</span>
-          <span>A</span>
-          <span>R</span>
-          <span>Y</span>
+        <div class="lib-btn-toggle">
+          <div class="lib-btn1_container">
+            <i class="lib-fas fa-circle"></i>
+          </div>
         </div>
-      </button>
-    </div>
-  </section>
-</header>
-
-<script>
-  function redirectToIndex() {
-    window.location.href = "index.html";
-  }
-</script>
+        <div class="lib-btn-container-1" onclick="redirectToIndex()">
+          <button class="lib-btn-52">
+            <div class="lib-original">HOME</div>
+            <div class="lib-letters">
+              <!-- Place each letter in its own element -->
+              <span>H</span>
+              <span>O</span>
+              <span>M</span>
+              <span>E</span>
+            </div>
+          </button>
+        </div>
+        <div class="lib-btn-container-2">
+          <button class="lib-btn-53">
+            <div class="lib-original">MY LIBRARY</div>
+            <div class="lib-letters">
+              <!-- Place each letter in its own element -->
+              <span>M</span>
+              <span>Y</span>
+              <span>&nbsp;</span>
+              <span>L</span>
+              <span>I</span>
+              <span>B</span>
+              <span>R</span>
+              <span>A</span>
+              <span>R</span>
+              <span>Y</span>
+            </div>
+          </button>
+        </div>
+        <div class="lib-buttons-block">
+          <button
+            type="button"
+            data-value="watched"
+            class="lib-button lib-button-watched"
+            id="btn"
+          >
+            Watched
+          </button>
+          <button
+            type="button"
+            data-value="queue"
+            class="lib-button lib-button-queue"
+            id="btn"
+          >
+            Queue
+          </button>
+        </div>
+      </section>
+    </header>
+    <footer class="footer">
+      <div class="body-content">
+        <p class="font-size font-flex">
+          &#169;
+          <span class="currentYear"></span>
+          &#10072; All Rights Reserved &#10072;
+        </p>
+        <div class="font-flex">
+          <p class="font-size">&thinsp;Developed with</p>
+          <img
+            class="heart-icon-custom"
+            src="./images/heart-footer.svg"
+            alt="heart-icon"
+          />
+          <p class="font-size">
+            by&thinsp;
+            <a href="#" role="button" class="color-font" data-modal-open>
+              GoIT Romania &#10072; &#8249;&#8260;&#8250; DivMasters
+            </a>
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script type="module" src="./index.js"></script>
+    <!-- <script>
+      function redirectToIndex() {
+        window.location.href = 'index.html';
+      }
+    </script> -->
+  </body>
+</html>
