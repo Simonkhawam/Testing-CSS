@@ -119,7 +119,8 @@ library__header {
   text-transform: uppercase;
   background-color: #b50d0d;
   border: none;
-
+  position: relative;
+  right: 1180px;
   &:first-child {
     margin-right: 16px;
   }
